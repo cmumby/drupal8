@@ -1,0 +1,16 @@
+global-css:
+    css:
+      core:
+        css/bootstrap.min.css: {}
+        css/font-awesome.min.css: {}
+        css/prettyPhoto.css: {}
+        css/animate.css: {}
+        css/main.css: {}
+
+global-js:
+  js:
+    js/bootstrap.min.js: {}
+    js/jquery.prettyPhoto.js: {}
+    js/main.js: {}
+  dependencies:
+    - core/jquery

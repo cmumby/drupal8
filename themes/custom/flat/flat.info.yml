@@ -1,0 +1,15 @@
+name: Flat Theme
+type: theme
+description: A flat theme from shapebootstrap.net.
+core: 8.x
+libraries:
+  - flat/global-css
+  - flat/global-js
+stylesheets-remove:
+  - '@classy/css/components/tabs.css'
+  - core/assets/vendor/normalize-css/normalize.css
+regions:
+  header: Header
+  content: Content  # the content region is required
+  sidebar_first: 'Sidebar first'
+  footer: Footer
